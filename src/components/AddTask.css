@@ -1,0 +1,33 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+.task-container{
+    display: flex;
+    /* color:white; */
+    flex-direction: column;
+}
+.task-container h2{
+    text-align: center;
+    margin: 1em;
+    font-size: 3em;
+    color:white;
+}
+.form input, .form textarea, button{
+    display: flex;
+    color: white;
+    padding: 1.2rem;
+    margin: 1em auto;
+    font-size:2rem ;
+    border-radius: 10px;
+    border: 1.5px solid white;
+}
+button{
+    background-color: rgb(137, 44, 128);
+    border-radius: 2em;
+    border: none;
+    padding: 0.8em;
+    font-size: 1.7em;
+    
+}

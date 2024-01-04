@@ -1,0 +1,45 @@
+.btn1{
+    background-color:rgb(189, 26, 172);
+    color: white;
+    font-size: 3em;
+    border: 2px solid rgb(182, 28, 166);
+    border-radius: 50%;
+    padding: 0.7rem 1.1rem;
+    margin: 0 2rem 1em 1em;
+    bottom:0;
+    right:0;
+    position: fixed;
+  }
+  .head{
+    color:rgb(250, 211, 233);
+    font-weight: bolder;
+    font-size: 3em;
+    padding:0.3rem 1.5em;
+  }
+  .typing-text{
+    color: rgb(193, 126, 186);
+    padding: 0.1em 1.5rem;
+    font-size: 1.5rem;
+    margin: 0 2rem 1em 1em
+    
+  }
+  .notask{
+    
+    text-align: center;
+    color:white;
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 3.5em auto;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 700px) {
+    .btn1 {
+      color: aliceblue;
+      border: none;
+      margin-bottom: 0.2em;
+      
+      padding: 0.3rem 0.8rem;
+      margin-right: 0;
+    }
+  }
